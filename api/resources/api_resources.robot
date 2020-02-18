@@ -1,4 +1,8 @@
 *** Settings ***
+Documentation       
+...     This library should ne used as the only place to define the keywords.\n\n
+...     Keep the test file super clean, only with Settings and Test Cases
+
 Library     Collections
 LIbrary     RequestsLibrary
 Library     JSONLibrary
